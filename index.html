@@ -5,37 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="module" src=".js/app.js" defer></script>
-    <style>
-        input {
-            margin: 10px;
-            padding: 10px;
-        }
-
-        body {
-            width: 100%;
-        }
-    </style>
+    <script src=".js/app.js" defer></script>
 </head>
 <body align="center">
-    <div>
-        <div>
-            <input id="login" placeholder="Login" onchange="preencherLogin(event)">
-            <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
-            <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
-            <button id="login-button" disabled>Login</button>
-        </div>
-        <div id="search-container" style="margin-left: 20px">
-            <input id="search" placeholder="Escreva...">
-            <button id="search-button">Pesquisar Filme</button>
-        </div>
-    </div>
+    <h4>Valor a ser adicionado: <input id="soma"> </h4>
+    <button id="atualizar-saldo">Atualizar saldo</button>
+    <button id="limpar-saldo">Limpar seu saldo</button>
+    <h1>"Seu saldo é: <span id="campo-saldo"></span>"</h1>
 </body>
-<footer>
-    <div align="center">
-        <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="TMDB attribution logo" width="200px" height="30px">
-        <p style="font-size: 20px; font-weight: bold">
-            This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
-    </div>
-</footer>
 </html>
