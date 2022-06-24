@@ -1,19 +1,25 @@
 {
-  "name": "aula-dio",
+  "name": "dio-impulso-javascript_evolution-modulo_3-desafio_de_projeto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
     "watch": "tsc --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gccunha015/dio-impulso-javascript_evolution-modulo_3-desafio_de_projeto.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lite-server": "^2.6.1"
+  "bugs": {
+    "url": "https://github.com/gccunha015/dio-impulso-javascript_evolution-modulo_3-desafio_de_projeto/issues"
   },
+  "homepage": "https://github.com/gccunha015/dio-impulso-javascript_evolution-modulo_3-desafio_de_projeto#readme",
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "lite-server": "^2.6.1",
+    "typescript": "^4.7.4"
   }
 }
